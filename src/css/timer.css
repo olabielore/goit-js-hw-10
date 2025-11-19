@@ -1,0 +1,22 @@
+
+.div-btn {
+    display: flex;
+    gap: 20px;
+    margin: 24px;
+}
+
+.timer {
+    display: flex;
+    column-gap: 5px;
+    margin-right: auto;
+}
+
+.field {
+    display: grid;
+    position: relative;
+    min-width: 60px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
