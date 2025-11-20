@@ -79,7 +79,7 @@ flatpickr('#datetime-picker', {
     if (inputDate < Date.now()) {
       buttonEl.disabled = true;
       iziToast.error({
-        title: 'Erore',
+        title: 'Errore',
         message: 'Please choose a date in the future',
         position: 'topRight',
       });
