@@ -4,17 +4,11 @@ import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-const divBtn = document.createElement('div');
-divBtn.classList.add('div-btn');
-
 const inputEl = document.querySelector('#datetime-picker');
 const buttonEl = document.querySelector('button');
 
 let userSelectedDate;
 let intervalId = null;
-
-divBtn.append(inputEl, buttonEl);
-document.body.append(divBtn);
 
 const timer = document.querySelector('.timer');
 
